@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/Slid_bar_Section_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+    />
+    <title>Slid bar Section</title>
+  </head>
+  <body>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- add one img -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="image/beautiful-mountain-lake-background-remix.jpg"
+          style="width: 100%"
+        />
+        <div class="text">One</div>
+      </div>
+      <!-- End add one img -->
+
+      <!-- add tow img -->
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img
+          src="image/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai.jpg"
+          style="width: 100%"
+        />
+        <div class="text">Two</div>
+      </div>
+      <!-- End add tow img -->
+
+      <!-- add three img -->
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img
+          src="image/mountain-landscape-with-hot-air-balloon-dawn-generative-ai.jpg"
+          style="width: 100%"
+        />
+        <div class="text">Three</div>
+      </div>
+      <!-- End add three img -->
+
+      <!-- buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+    <!-- End buttons -->
+
+    <!-- circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- End circles -->
+
+    <!-- End Slideshow container  -->
+    <!-- js file -->
+    <script src="js/Slid_bar_Section.js"></script>
+  </body>
+</html>
